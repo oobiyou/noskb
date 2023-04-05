@@ -8,7 +8,7 @@ import {nodePolyfills} from "vite-plugin-node-polyfills"
 
 export default defineConfig({
   server: {
-    https: false,
+    https: true,
   },
   build: {
     sourcemap: true,
