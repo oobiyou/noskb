@@ -69,18 +69,6 @@
       "cursor-pointer": $canPublish,
       "pointer-events-none opacity-75": !$canPublish,
     })}>
-    <a class="block px-4 py-2 transition-all hover:bg-accent hover:text-white" href="/messages">
-      <i class="fa fa-envelope mr-2" /> Messages
-      {#if $newDirectMessages}
-        <div class="absolute top-2 left-7 h-2 w-2 rounded bg-accent" />
-      {/if}
-    </a>
-  </li>
-  <li
-    class={cx("relative", {
-      "cursor-pointer": $canPublish,
-      "pointer-events-none opacity-75": !$canPublish,
-    })}>
     <a class="block px-4 py-2 transition-all hover:bg-accent hover:text-white" href="/chat">
       <i class="fa fa-comment mr-2" /> Chat
       {#if $newChatMessages}
