@@ -18,6 +18,7 @@ export default defineConfig({
       src: path.resolve(__dirname, "src"),
     },
   },
+  base: '/noskb/',
   plugins: [
     mkcert(),
     nodePolyfills({
